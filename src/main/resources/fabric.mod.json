@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "clickgui",
+  "version": "${version}",
+  "name": "FluffyLuck",
+  "description": "FluffyLuck client-side combat ClickGUI.",
+  "environment": "client",
+  "mixins": [
+    "clickgui.mixins.json"
+  ],
+  "entrypoints": {
+    "client": [
+      "me.exeos.ClickGuiModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
